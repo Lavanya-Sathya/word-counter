@@ -12,7 +12,7 @@ if (!filePath) {
 
 const content = await fs.readFile(filePath, "utf-8")
 
-const wordArray = content?.split(/[\W+]/).filter((w) => w)
+const wordArray = content?.toLowerCase()?.split(/[\W+]/).filter((w) => w)
 
 let wordCount = {}
 
