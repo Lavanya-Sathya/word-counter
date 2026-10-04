@@ -13,7 +13,7 @@ A simple Node.js CLI tool to count word occurrences in a text file.
 
 ## Installation
 
-Install the package globally:
+### Install globally if you want to use the `word-count` command directly from anywhere:
 
 ```bash
 npm install -g cli-word-count
@@ -63,6 +63,18 @@ Output:
 Word Count: {
   hello: 3
 }
+```
+
+### Install locally if you want to use the `word-count` command only in a particular project:
+
+```bash
+npm install cli-word-count
+```
+
+## Usage
+
+```bash
+npx word-count <file-path>
 ```
 
 ## Case-Insensitive Matching

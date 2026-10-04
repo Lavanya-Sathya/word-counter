@@ -1,8 +1,27 @@
 {
-    "name": "cli-word-count",
-    "version": "1.0.1",
-    "type": "module",
-    "bin": {
-        "word-count": "app.js"
-    }
+  "name": "cli-word-count",
+  "version": "1.0.2",
+  "description": "A simple Node.js CLI tool to count word occurrences in a text file.",
+  "type": "module",
+  "bin": {
+    "word-count": "app.js"
+  },
+  "keywords": [
+    "cli",
+    "word-count",
+    "word-counter",
+    "nodejs",
+    "npm",
+    "text",
+    "file"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lavanya-Sathya/word-counter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lavanya-Sathya/word-counter/issues"
+  },
+  "homepage": "https://github.com/Lavanya-Sathya/word-counter#readme",
+  "license": "MIT"
 }
