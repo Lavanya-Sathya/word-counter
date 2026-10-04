@@ -1,6 +1,6 @@
 {
     "name": "cli-word-count",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "module",
     "bin": {
         "word-count": "app.js"
